@@ -125,7 +125,7 @@ FLASH_INFO_MODEL = Redmi Note 7
 FLASH_INFO_CPU = SDM660
 
 # Space-separated list of supported device ids as reported by fastboot
-#FLASH_INFO_DEVICE_IDS = model1 model2
+FLASH_INFO_DEVICE_IDS = lavender
 
 ########################################################################
 # Kernel build settings
