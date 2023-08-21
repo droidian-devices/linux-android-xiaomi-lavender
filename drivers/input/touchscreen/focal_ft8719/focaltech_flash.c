@@ -1367,7 +1367,7 @@ static int fts_param_get_ver_in_host(u8 *ver)
 {
 	struct fts_upgrade *upg = fwupgrade;
 
-	if ((!upg) || (!upg->func) || (!upg->fw) || (!ver)) {
+	if ((!upg) || (!upg->func) || (!ver)) {
 		FTS_ERROR("fts_data/upgrade/func/fw/ver is NULL");
 		return -EINVAL;
 	}
@@ -1474,7 +1474,7 @@ static int fts_fwupg_get_ver_in_host(u8 *ver)
 {
 	struct fts_upgrade *upg = fwupgrade;
 
-	if ((!upg) || (!upg->func) || (!upg->fw) || (!ver)) {
+	if ((!upg) || (!upg->func) || (!ver)) {
 		FTS_ERROR("fts_data/upgrade/func/fw/ver is NULL");
 		return -EINVAL;
 	}
