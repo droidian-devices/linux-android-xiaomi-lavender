@@ -1,0 +1,5 @@
+halium_hook_setup_touchscreen() {
+    # touch screen needs a reset to take inputs
+    echo 1 > /sys/devices/soc/c175000.i2c/i2c-1/1-0020/synaptics_tcm.0/synaptics_tcm/reset || true
+    echo "$(cat /sys/class/leds/lcd-backlight/max_brightness)" > /sys/class/leds/lcd-backlight/brightness
+}
